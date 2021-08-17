@@ -1,0 +1,21 @@
+{
+  "name": "kafka-producer",
+  "version": "1.0.0",
+  "description": "demo how to make kafka producer using node",
+  "main": "server.js",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js",
+    "start:partition": "node ./partition/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kafka"
+  ],
+  "author": "aslanshemilov",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^1.15.0",
+    "librdkafka": "^0.0.0"
+  }
+}
